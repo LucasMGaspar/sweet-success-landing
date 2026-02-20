@@ -1,14 +1,23 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/HeroSection";
+import FeaturesSection from "@/components/FeaturesSection";
+import TargetAudienceSection from "@/components/TargetAudienceSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import BonusSection from "@/components/BonusSection";
+import PricingSection from "@/components/PricingSection";
+import GuaranteeSection from "@/components/GuaranteeSection";
+import LandingFooter from "@/components/LandingFooter";
 
-const Index = () => {
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
-  );
-};
+const Index = () => (
+  <main className="overflow-hidden">
+    <HeroSection />
+    <FeaturesSection />
+    <TargetAudienceSection />
+    <TestimonialsSection />
+    <BonusSection />
+    <PricingSection />
+    <GuaranteeSection />
+    <LandingFooter />
+  </main>
+);
 
 export default Index;
