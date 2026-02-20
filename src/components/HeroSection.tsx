@@ -29,7 +29,7 @@ const HeroSection = () => (
           </p>
 
           <div className="animate-fade-up animate-fade-up-delay-2">
-            <a href="#oferta" className="btn-cta pulse-cta inline-block text-center w-full sm:w-auto">
+            <a href="https://pay.kiwify.com.br/HBfy6sL" target="_blank" rel="noopener noreferrer" className="btn-cta pulse-cta inline-block text-center w-full sm:w-auto">
               QUERO GARANTIR MINHA VAGA E LUCRAR AGORA
             </a>
             <div className="flex items-center justify-center md:justify-start gap-3 mt-4 text-muted-foreground text-sm">
