@@ -19,7 +19,7 @@ const PricingSection = () => (
           Pagamento único · Acesso imediato
         </p>
 
-        <a href="#" className="btn-cta pulse-cta inline-block w-full text-center text-base sm:text-lg">
+        <a href="https://pay.kiwify.com.br/HBfy6sL" target="_blank" rel="noopener noreferrer" className="btn-cta pulse-cta inline-block w-full text-center text-base sm:text-lg">
           QUERO APROVEITAR O DESCONTO AGORA
         </a>
 
