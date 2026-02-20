@@ -13,10 +13,10 @@ const PricingSection = () => (
         </p>
 
         <div className="mb-2">
-          <span className="text-5xl sm:text-6xl price-highlight">12x R$ 9,70</span>
+          <span className="text-5xl sm:text-6xl price-highlight">R$ 19,90</span>
         </div>
         <p className="text-muted-foreground text-sm mb-8">
-          ou <strong className="text-primary">R$ 97,00</strong> à vista
+          Pagamento único · Acesso imediato
         </p>
 
         <a href="#" className="btn-cta pulse-cta inline-block w-full text-center text-base sm:text-lg">
