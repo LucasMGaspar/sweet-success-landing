@@ -16,17 +16,28 @@ const HeroSection = () => (
       <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
         {/* Text */}
         <div className="order-2 md:order-1 text-center md:text-left">
-          <h1 className="animate-fade-up text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-heading font-bold text-primary leading-tight mb-6">
-            Transforme Chocolate em Lucro: O Guia Definitivo do Curso{" "}
-            <span className="font-script text-4xl sm:text-5xl lg:text-6xl xl:text-7xl text-chocolate-light inline-block">
-              Páscoa Lucrativa
-            </span>
+          <div className="animate-fade-up inline-flex items-center gap-2 bg-red-600 text-white text-sm font-heading font-bold px-4 py-2 rounded-full mb-5 shadow-lg">
+            🔥 OFERTA RELÂMPAGO — Encerra em breve!
+          </div>
+
+          <h1 className="animate-fade-up text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-heading font-bold text-chocolate leading-tight mb-5" style={{textShadow: "0 1px 3px rgba(255,255,255,0.4)"}}>
+            Fature até{" "}
+            <span className="bg-chocolate text-primary-foreground px-2 py-0.5 rounded-lg inline-block">
+              R$3.000
+            </span>{" "}
+            nessa Páscoa vendendo ovos de chocolate
           </h1>
 
-          <p className="animate-fade-up animate-fade-up-delay-1 text-base sm:text-lg text-foreground/80 mb-8 max-w-lg mx-auto md:mx-0">
-            Aprenda as técnicas secretas, receitas gourmet de ovos de colher e o passo a passo para{" "}
-            <strong>faturar alto nesta Páscoa</strong>, mesmo começando do zero.
+          <p className="animate-fade-up animate-fade-up-delay-1 text-base sm:text-lg font-semibold text-chocolate mb-4 max-w-lg mx-auto md:mx-0">
+            O passo a passo completo para produzir, precificar e vender —{" "}
+            <span className="underline decoration-2">mesmo que você nunca tenha feito um ovo antes.</span>
           </p>
+
+          <ul className="animate-fade-up animate-fade-up-delay-1 text-sm sm:text-base font-semibold text-chocolate mb-8 max-w-lg mx-auto md:mx-0 space-y-2 text-left">
+            <li className="flex items-center gap-2"><span className="text-green-700 text-lg">✅</span> Receitas gourmet testadas e aprovadas</li>
+            <li className="flex items-center gap-2"><span className="text-green-700 text-lg">✅</span> Técnicas de precificação para lucro real</li>
+            <li className="flex items-center gap-2"><span className="text-green-700 text-lg">✅</span> Acesso imediato após a compra</li>
+          </ul>
 
           <div className="animate-fade-up animate-fade-up-delay-2">
             <a href="https://pay.kiwify.com.br/HBfy6sL" target="_blank" rel="noopener noreferrer" className="btn-cta pulse-cta inline-block text-center w-full sm:w-auto">
