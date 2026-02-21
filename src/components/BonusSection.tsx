@@ -1,4 +1,5 @@
 import { Gift, BookOpen, Table } from "lucide-react";
+import bonusBanner from "@/assets/Gemini_Generated_Image_rcccvrrcccvrrccc.png";
 
 const bonuses = [
   {
@@ -25,6 +26,14 @@ const BonusSection = () => (
         Leve o Curso Completo +{" "}
         <span className="text-golden-dark">Bônus Exclusivos</span> Hoje!
       </h2>
+
+      <div className="animate-fade-up mb-8 rounded-2xl overflow-hidden shadow-xl">
+        <img
+          src={bonusBanner}
+          alt="Mini App Cardápio Lucrativo - Bônus exclusivo"
+          className="w-full object-cover"
+        />
+      </div>
 
       <div className="space-y-4">
         {bonuses.map((b, i) => (
