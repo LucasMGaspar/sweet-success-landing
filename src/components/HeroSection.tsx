@@ -1,11 +1,11 @@
 import { ShieldCheck, CreditCard } from "lucide-react";
-import heroProduct from "@/assets/hero-product.png";
+import heroProduct from "@/assets/Gemini_Generated_Image_rcccvrrcccvrrccc.png";
 import ChocolateDrip from "./ChocolateDrip";
 
 const HeroSection = () => (
   <section className="relative bg-sunburst min-h-screen flex items-center overflow-hidden">
     <ChocolateDrip />
-    
+
     {/* Sunburst rays */}
     <div className="absolute inset-0 opacity-20" style={{
       background: "repeating-conic-gradient(hsl(43 100% 55% / 0.3) 0deg 10deg, transparent 10deg 20deg)",
@@ -57,7 +57,7 @@ const HeroSection = () => (
           <img
             src={heroProduct}
             alt="Curso Páscoa Lucrativa - Ovos de chocolate gourmet"
-            className="w-72 sm:w-80 md:w-96 lg:w-[28rem] drop-shadow-2xl hover:scale-105 transition-transform duration-500"
+            className="w-72 sm:w-80 md:w-96 lg:w-[28rem] drop-shadow-2xl hover:scale-105 transition-transform duration-500 rounded-2xl"
           />
         </div>
       </div>
